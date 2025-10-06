@@ -4,7 +4,9 @@ using namespace std;
 
 int main(void)
 {
-    cout << "Hello, world!!" << endl;
+    for (int i = 0; i < 10; i++) {
+        cout << i + 1 << endl;
+    }
     
     return 0;
 }
